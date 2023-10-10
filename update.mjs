@@ -392,7 +392,7 @@ const base = {
   '*.resx': '$(capture).*.resx, $(capture).designer.cs, $(capture).designer.vb',
   '*.dart': '$(capture).freezed.dart, $(capture).g.dart',
   '*.bloc.dart': '$(capture).event.dart, $(capture).state.dart',
-  '*.module.ts': '$(capture).resolver.ts, $(capture).controller.ts, $(capture).service.ts',
+  '*.module.ts': '$(capture).resolver.ts',
   '*.java': '$(capture).class',
   '.project': '.classpath',
 }
